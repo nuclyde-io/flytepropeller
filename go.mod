@@ -3,17 +3,17 @@ module github.com/lyft/flytepropeller
 go 1.13
 
 require (
-	cloud.google.com/go v0.54.0 // indirect
 	github.com/Azure/azure-sdk-for-go v40.3.0+incompatible // indirect
 	github.com/Azure/go-autorest/autorest v0.10.0 // indirect
 	github.com/DiSiqueira/GoTree v1.0.1-0.20180907134536-53a8e837f295
+	github.com/NYTimes/gizmo v1.3.6 // indirect
 	github.com/benlaurie/objecthash v0.0.0-20180202135721-d1e3d6079fc1
 	github.com/coreos/go-oidc v2.2.1+incompatible // indirect
 	github.com/fatih/color v1.9.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-redis/redis v6.15.7+incompatible
 	github.com/gogo/protobuf v1.3.1
-	github.com/golang/protobuf v1.3.5
+	github.com/golang/protobuf v1.4.2
 	github.com/google/uuid v1.1.1
 	github.com/googleapis/gnostic v0.4.1 // indirect
 	github.com/graymeta/stow v0.2.5 // indirect
@@ -31,14 +31,13 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.5.0
 	github.com/prometheus/procfs v0.0.10 // indirect
-	github.com/sirupsen/logrus v1.4.2
+	github.com/sirupsen/logrus v1.6.0
 	github.com/spf13/cobra v0.0.6
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.6.1
 	golang.org/x/time v0.0.0-20191024005414-555d28b269f0
 	gomodules.xyz/jsonpatch/v2 v2.1.0 // indirect
-	google.golang.org/genproto v0.0.0-20200312145019-da6875a35672 // indirect
-	google.golang.org/grpc v1.28.0
+	google.golang.org/grpc v1.29.1
 	gopkg.in/ini.v1 v1.54.0 // indirect
 	k8s.io/api v0.17.3
 	k8s.io/apimachinery v0.17.3
